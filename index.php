@@ -7,6 +7,8 @@ $edad = 18;
 $estatura = 1.58;
 echo "Soy ..." . $nombre . " tengo " . $edad . " años y mido " .$estatura . "metros" . $estatura . "metros";
 echo "<br>";
+$a=25;
+$raizCuadrada = sqrt($a);
 $x= 34;
 $y= 356.78;
 $z= $x+$y;
@@ -17,6 +19,7 @@ echo "La suma es $x + $y = $z <br>";
 echo "La resta es $x - $y = $w <br>";
 echo "La multiplicación es $x * $y = $f <br>";
 echo "La division es $x / $y = $k <br>";
+echo "La raiz cuadrada de $a es: $raizCuadrada";
 ?>
 
 
